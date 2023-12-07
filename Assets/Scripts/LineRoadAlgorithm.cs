@@ -12,9 +12,14 @@ public class LineRoadAlgorithm : MonoBehaviour
     private bool success = false;
     private Dictionary<GameObject, Quaternion> initialRotations = new Dictionary<GameObject, Quaternion>();
 
-    private void Start()
+    private void Awake()
     {
         StoreInitialRotations();
+    }
+
+    private void Start()
+    {
+
 
         RandomRotate();
 
@@ -71,6 +76,7 @@ public class LineRoadAlgorithm : MonoBehaviour
         {
             if (!Quaternion.Equals(lineRoad.transform.rotation, initialRotations[lineRoad])
             && !Mathf.Approximately(lineRoad.transform.rotation.eulerAngles.y, 180f)
+            && !Mathf.Approximately(lineRoad.transform.rotation.eulerAngles.y, -0)
             && !Mathf.Approximately(lineRoad.transform.rotation.eulerAngles.y, -180f))
             {
                 success = false;
