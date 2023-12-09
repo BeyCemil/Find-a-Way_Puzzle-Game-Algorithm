@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8987986640031314291}
   - component: {fileID: 2334258586960314386}
   - component: {fileID: 3230268243390213954}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Line_Road_Visual_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,8 @@ GameObject:
   - component: {fileID: 3946880197726692748}
   - component: {fileID: 2495814718991005448}
   - component: {fileID: 5391703408837034864}
-  m_Layer: 0
+  - component: {fileID: 3548353466848240285}
+  m_Layer: 6
   m_Name: Line_Road_Visual_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -166,6 +167,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3548353466848240285
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3637180611368967688}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.04, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4183043798977101329
 GameObject:
   m_ObjectHideFlags: 0
@@ -177,7 +199,7 @@ GameObject:
   - component: {fileID: 4550027063127639072}
   - component: {fileID: 1386009451826684544}
   - component: {fileID: 6901461958833010378}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Line_Road_Visual_3 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -260,7 +282,7 @@ GameObject:
   - component: {fileID: 2561592290036414463}
   - component: {fileID: 5642743368214605958}
   - component: {fileID: 4239173145803121092}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Line_Road_Visual_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -342,7 +364,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7122537227604752704}
   - component: {fileID: 8192451508437947995}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Line_Road
   m_TagString: Untagged
   m_Icon: {fileID: 0}
